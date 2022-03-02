@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  width: 100vw;
+  padding: 0 10vw;
+  display: flex;
+  flex-direction: column;
+}
+
+h3 {
+  margin: 50px auto 25px;
+}
+
+.title {
+  margin-top: 100px;
+}
+
+p {
+  margin: 0px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5px;
+}
+
+.coins {
+  display: flex;
+  flex-direction: row;
+  margin: 25px auto 0;
+}
+
+.rank {
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.ticker-image {
+  margin: auto 5px auto 0px;
+  width: 20px;
+  height: 20px;
+}
+
+.coin {
+  margin: 0px 20px;
+  padding: 15px 30px;
+  background: rgb(241, 241, 241);
+}
+
+.change {
+  margin-top: 5px;
+  text-align: center;
+}
+
+#total-market-cap {
+  margin: 0 auto;
+  padding: 15px 30px;
+  background: rgb(241, 241, 241);
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
